@@ -1,12 +1,12 @@
 # Development Portfolio
 Personal portfolio showcasing web development projects
 
-# Technologies
+## Technologies
 HTML
 CSS
 
-# Future Improvements
+## Future Improvements
 Interaction capabilities
 
-# Author
+## Author
 Jade Goodwin-Carter
