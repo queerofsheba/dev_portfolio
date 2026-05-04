@@ -1,0 +1,27 @@
+html body {
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+header, section, footer {
+    margin: 0px 20px 0px 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px black;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-kerning: none;
+}
+
+header p {
+    text-align: right;
+}
