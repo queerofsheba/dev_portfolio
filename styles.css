@@ -56,3 +56,30 @@ section.projects div span {
     font-weight: 700;
     padding-right: 20px;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+div.cta {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid var(--slate);
+    align-items: center;
+    padding: 0px 20px;
+}
+
+div.cta-message {
+    width: 275px
+}
+
+div.links {
+    display: flex;
+    flex-direction: column;
+}
+
+p.copyright {
+    text-align: center;
+    margin-top: 50px;
+}
