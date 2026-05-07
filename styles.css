@@ -22,6 +22,17 @@ header {
     flex-wrap: wrap;
 }
 
+@media (max-width: 850px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header h1 {
+        margin-bottom: 0px;
+    }
+}
+
 header h1 {
     text-transform: uppercase;
     font-kerning: none;
