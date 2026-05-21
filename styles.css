@@ -31,6 +31,10 @@ header {
     header h1 {
         margin-bottom: 0px;
     }
+
+    div.cta-message {
+        width: 275px
+}
 }
 
 header h1 {
@@ -73,7 +77,7 @@ section.projects h2 {
 .project-body {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s ease;
+    transition: max-height 0.7s ease;
 }
 
 .project-card.open .project-body {
@@ -106,10 +110,6 @@ div.cta {
     border: 2px solid var(--slate);
     align-items: center;
     padding: 0px 20px;
-}
-
-div.cta-message {
-    width: 275px
 }
 
 div.links {
