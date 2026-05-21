@@ -4,6 +4,7 @@ Personal portfolio showcasing web development projects
 ## Technologies
 HTML
 CSS
+JavaScript
 
 ## Future Improvements
 Interaction capabilities

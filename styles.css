@@ -57,15 +57,10 @@ section.projects h2 {
     border-bottom: solid var(--slate) 2px;
 }
 
-section.projects div {
+.project-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-section.projects div span {
-    font-weight: 700;
-    padding-right: 20px;
 }
 
 .project-img {
@@ -73,6 +68,31 @@ section.projects div span {
     position: fixed;
     pointer-events: none;
     max-height: 150px;
+}
+
+.project-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.project-card.open .project-body {
+    max-height: 200px;
+}
+
+.expand-btn {
+    background: none;
+    border: none;
+    padding: 0px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    margin-right: 20px;
+    font-size: x-large;
+}
+
+.expand-btn:hover {
+    color: coral;
 }
 
 footer {
