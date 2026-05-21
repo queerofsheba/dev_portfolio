@@ -68,6 +68,13 @@ section.projects div span {
     padding-right: 20px;
 }
 
+.project-img {
+    opacity: 0;
+    position: fixed;
+    pointer-events: none;
+    max-height: 150px;
+}
+
 footer {
     display: flex;
     flex-direction: column;
